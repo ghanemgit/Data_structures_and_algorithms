@@ -2,7 +2,7 @@ package CodeChallenges.Challenge10;
 
 public class Stack {
 
-    Node top;
+    public Node top;
 
     public Stack() {
         this.top = null;
