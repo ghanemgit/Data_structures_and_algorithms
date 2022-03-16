@@ -2,8 +2,8 @@ package CodeChallenges.Challenge10;
 
 public class Node {
 
-    int data;
-    Node next;
+    public int data;
+    public Node next;
 
     public Node() {
         this.data = 0;
