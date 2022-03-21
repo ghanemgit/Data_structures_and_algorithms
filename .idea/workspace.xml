@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efc60306-821d-4024-b98e-7540a074c661" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge11/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge11/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge11/PseudoQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge11/PseudoQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/CodeChallenges/Challenge11/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/CodeChallenges/Challenge11/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assert/stack-queue-pseudo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/README_Ch11.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/README_Ch11.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +106,7 @@
       <workItem from="1647726383770" duration="371000" />
       <workItem from="1647770328506" duration="1235000" />
       <workItem from="1647777603237" duration="3370000" />
-      <workItem from="1647890592156" duration="3557000" />
+      <workItem from="1647890592156" duration="5053000" />
     </task>
     <servers />
   </component>
