@@ -13,7 +13,6 @@ public class App {
         System.out.println("Please enter 3 values");
         for (int i = 0; i < 3; i++) {
             input = scanner.nextInt();
-            System.out.println(pseudoQueue.enqueue(input));
         }
         System.out.println("The extract form the queue is => " + pseudoQueue.dequeue());
     }

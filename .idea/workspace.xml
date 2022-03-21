@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="efc60306-821d-4024-b98e-7540a074c661" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/README_Ch10.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/README_Ch10.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assert/stack-queue-pseudo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/README_Ch11.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/README_Ch11.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -38,6 +46,8 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager" selected="JUnit.AppTest">
     <configuration name="MainCh10" type="Application" factoryName="Application">
@@ -49,10 +59,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainCh11" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="CodeChallenges.Challenge11.App" />
+      <module name="Data_structures_and_algorithms.app.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainCh12" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="CodeChallenges.Challenge12.App" />
+      <module name="Data_structures_and_algorithms.app.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppTest" type="JUnit" factoryName="JUnit">
       <module name="Data_structures_and_algorithms.app.test" />
-      <option name="PACKAGE_NAME" value="CodeChallenges" />
-      <option name="MAIN_CLASS_NAME" value="CodeChallenges.AppTest" />
+      <option name="PACKAGE_NAME" value="CodeChallenges.Challenge11" />
+      <option name="MAIN_CLASS_NAME" value="CodeChallenges.Challenge11.AppTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
@@ -60,6 +88,8 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.MainCh12" />
+      <item itemvalue="Application.MainCh11" />
       <item itemvalue="Application.MainCh10" />
       <item itemvalue="JUnit.AppTest" />
     </list>
@@ -72,8 +102,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647359464015</updated>
+      <workItem from="1647519667954" duration="124000" />
+      <workItem from="1647726383770" duration="371000" />
+      <workItem from="1647770328506" duration="1235000" />
+      <workItem from="1647777603237" duration="3370000" />
+      <workItem from="1647890592156" duration="5053000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
