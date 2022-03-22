@@ -1,6 +1,6 @@
 package CodeChallenges.Challenge10;
 
-public class Queue {
+public class Queue<T> {
 
     Node front;
     Node back;
@@ -14,7 +14,7 @@ public class Queue {
     }
 
     //insert an element at the end of the queue
-    public void enqueue(int value){
+    public void enqueue(T value){
 
         Node newNode = new Node();
         newNode.data = value;
@@ -30,38 +30,38 @@ public class Queue {
     }
 
     //Removes the node from the front of the queue
-    public int dequeue(){
+    public T dequeue(){
 
-        int deletedValue = 0;
+        T deletedValue;
         Node deletedPointer;//create new pointer to stay at the element we want to delete it
         deletedPointer = front;//put the new pointer at the beginning of queue
 
         if (isEmpty()){
             System.err.println("The queue is empty");
-            return 0;
+            return null;
         }
         //If the queue has one element give null value to two pointers and java will automatically delete it by garbage collector
         else if (front == back){
             front = back = null;
-            deletedValue = front.data;
+            deletedValue = (T) front.data;
         }
 
         else {
             front = front.next;//move the pointer a step forward
-            deletedValue = deletedPointer.data;
+            deletedValue = (T) deletedPointer.data;
             deletedPointer = null;
         }
         return deletedValue;
     }
 
     // return the Value of the node located at the front of the queue
-    public int peek(){
+    public T peek(){
 
         if (isEmpty()){
             System.err.println("The queue is empty");
-            return 0;
+            return null;
         }else {
-            return front.data;
+            return (T) front.data;
         }
 
     }

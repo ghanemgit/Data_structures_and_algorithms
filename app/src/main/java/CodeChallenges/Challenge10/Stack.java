@@ -1,6 +1,6 @@
 package CodeChallenges.Challenge10;
 
-public class Stack {
+public class Stack<T> {
 
     public Node top;
 
@@ -30,17 +30,17 @@ public class Stack {
     }
 
         //Return the top element from the stack.
-    public int pop() {
+    public T pop() {
 
         if (isEmpty()) {
             System.err.println("The stack is empty");
-            return 0;
+            return null;
         } else {
             //make int variable to save the deleted value in it to allow us return it later
-            int deletedValue;
+            T deletedValue;
             //make new pointer because if we used the top pointer for this process the old value of pointer will keep stored in the memory.
             Node deletePointer = top;
-            deletedValue = top.data;
+            deletedValue = (T) top.data;
             top = top.next;
             deletePointer = null;
             return deletedValue;
@@ -50,13 +50,13 @@ public class Stack {
     }
 
         //Return the value of top element
-    public int peek() {
+    public T peek() {
 
         if (isEmpty()) {
             System.err.println("The stack is empty");
-            return 0;
+            return null;
         } else {
-            return top.data;
+            return (T) top.data;
         }
     }
 
