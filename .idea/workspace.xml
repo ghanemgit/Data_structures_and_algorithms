@@ -6,8 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="efc60306-821d-4024-b98e-7540a074c661" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assert/stack-queue-pseudo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/README_Ch11.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/README_Ch11.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/README_Ch12.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/README_Ch12.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge10/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge10/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge10/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge10/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge10/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge10/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge11/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge11/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge11/PseudoQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge11/PseudoQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge12/AnimalShelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge12/AnimalShelter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge12/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge12/Animals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge12/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge12/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/CodeChallenges/Challenge11/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/CodeChallenges/Challenge11/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +56,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assert" />
   </component>
-  <component name="RunManager" selected="JUnit.AppTest">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Desktop\Advanced Java\Code Challanges\Data_structures_and_algorithms\Assert" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="CodeChallenges.Challenge12" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AppTest12">
     <configuration name="MainCh10" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -77,10 +94,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit">
+    <configuration name="AppTest10" type="JUnit" factoryName="JUnit">
+      <module name="Data_structures_and_algorithms.app.test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="PACKAGE_NAME" value="CodeChallenges.Challenge10" />
+      <option name="MAIN_CLASS_NAME" value="CodeChallenges.Challenge10.AppTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest11" type="JUnit" factoryName="JUnit">
       <module name="Data_structures_and_algorithms.app.test" />
       <option name="PACKAGE_NAME" value="CodeChallenges.Challenge11" />
       <option name="MAIN_CLASS_NAME" value="CodeChallenges.Challenge11.AppTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest12" type="JUnit" factoryName="JUnit">
+      <module name="Data_structures_and_algorithms.app.test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="PACKAGE_NAME" value="CodeChallenges.Challenge12" />
+      <option name="MAIN_CLASS_NAME" value="CodeChallenges.Challenge12.AppTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
@@ -91,7 +132,9 @@
       <item itemvalue="Application.MainCh12" />
       <item itemvalue="Application.MainCh11" />
       <item itemvalue="Application.MainCh10" />
-      <item itemvalue="JUnit.AppTest" />
+      <item itemvalue="JUnit.AppTest12" />
+      <item itemvalue="JUnit.AppTest11" />
+      <item itemvalue="JUnit.AppTest10" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -106,7 +149,8 @@
       <workItem from="1647726383770" duration="371000" />
       <workItem from="1647770328506" duration="1235000" />
       <workItem from="1647777603237" duration="3370000" />
-      <workItem from="1647890592156" duration="5053000" />
+      <workItem from="1647890592156" duration="5450000" />
+      <workItem from="1647976640523" duration="10919000" />
     </task>
     <servers />
   </component>
