@@ -9,6 +9,22 @@ public class Queue<T> {
         front = back = null;
     }
 
+    public Node getFront() {
+        return front;
+    }
+
+    public void setFront(Node front) {
+        this.front = front;
+    }
+
+    public Node getBack() {
+        return back;
+    }
+
+    public void setBack(Node back) {
+        this.back = back;
+    }
+
     public boolean isEmpty(){
         return front == null;
     }
@@ -65,9 +81,46 @@ public class Queue<T> {
         }
 
     }
+    public boolean isFound(T value) {
+        boolean found = false;
+
+        Node newNode = front;
+        if (isEmpty()) {
+            return found;
+        } else {
+
+            while (newNode != null) {
+                if (newNode.data == value)
+                found = true;
+                newNode = newNode.next;
+            }
+
+
+        }
+        return found;
+    }
+
 
     //Print all element of queue.
     public String printAll() {
+
+        String str = "";
+        Node newNode = front;
+        if (isEmpty()) {
+            str += "The queue is empty";
+        } else {
+            str += "Your queue is => ";
+            while (newNode != null) {
+                str += "{ " + newNode.data + " } => ";
+                newNode = newNode.next;
+            }
+            str += "null";
+
+        }
+        return str;
+    }
+
+    public String reverseAndPrintAll() {
 
         String str = "";
         Node newNode = front;

@@ -14,7 +14,7 @@ public class Stack<T> {
         return this.top == null;
     }
         //Insert element into the top of stack.
-    public void push(int item) {
+    public void push(T item) {
 
         Node newNode = new Node();//create new node and position the pointer(top) at the beginning
         newNode.data = item;//assign the item value to the new node
