@@ -9,6 +9,15 @@ public class App {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        Stack stack = new Stack();
+        int input;
+
+        for (int i = 0; i < 4; i++) {
+            System.out.println("Welcome, please enter the value you want to push inside the stack");
+            input = scanner.nextInt();
+            stack.push(input);
+        }
+        System.out.println(stack.printAll());
 
 
     }

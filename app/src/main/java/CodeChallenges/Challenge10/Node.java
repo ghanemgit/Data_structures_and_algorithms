@@ -1,12 +1,12 @@
 package CodeChallenges.Challenge10;
 
-public class Node<T> {
+public class Node {
 
-    public T data;
+    public int data;
     public Node next;
 
     public Node() {
-        this.data = null;
+        this.data = 0;
         this.next = null;
 
     }
