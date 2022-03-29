@@ -7,8 +7,18 @@
     <list default="true" id="efc60306-821d-4024-b98e-7540a074c661" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge10/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge10/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge10/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge10/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge10/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge10/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge10/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge10/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge11/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge11/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge11/PseudoQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge11/PseudoQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge12/AnimalShelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge12/AnimalShelter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge12/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge12/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge13/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge13/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge13/ValidateBrackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge13/ValidateBrackets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/CodeChallenges/Challenge12/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/CodeChallenges/Challenge12/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/CodeChallenges/Challenge13/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/CodeChallenges/Challenge13/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,17 +60,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Assert" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lenovo\Desktop\Advanced Java\Code Challanges\Data_structures_and_algorithms\Assert" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="CodeChallenges.Challenge15" />
       <recent name="CodeChallenges.Challenge13" />
       <recent name="CodeChallenges.Challenge12" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest13">
+  <component name="RunManager" selected="JUnit.AppTest15">
     <configuration name="MainCh10" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -92,6 +104,13 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="CodeChallenges.Challenge13.App" />
+      <module name="Data_structures_and_algorithms.app.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainCh15" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="CodeChallenges.Challenge15.App" />
       <module name="Data_structures_and_algorithms.app.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,11 +160,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest15" type="JUnit" factoryName="JUnit">
+      <module name="Data_structures_and_algorithms.app.test" />
+      <option name="PACKAGE_NAME" value="CodeChallenges.Challenge15" />
+      <option name="MAIN_CLASS_NAME" value="CodeChallenges.Challenge15.AppTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.MainCh13" />
       <item itemvalue="Application.MainCh12" />
       <item itemvalue="Application.MainCh11" />
       <item itemvalue="Application.MainCh10" />
+      <item itemvalue="Application.MainCh15" />
+      <item itemvalue="JUnit.AppTest15" />
       <item itemvalue="JUnit.AppTest13" />
       <item itemvalue="JUnit.AppTest12" />
       <item itemvalue="JUnit.AppTest11" />
@@ -166,7 +197,12 @@
       <workItem from="1647777603237" duration="3370000" />
       <workItem from="1647890592156" duration="5450000" />
       <workItem from="1647976640523" duration="11310000" />
-      <workItem from="1648036231678" duration="19513000" />
+      <workItem from="1648036231678" duration="19895000" />
+      <workItem from="1648111442919" duration="9481000" />
+      <workItem from="1648388781862" duration="1384000" />
+      <workItem from="1648455615713" duration="2180000" />
+      <workItem from="1648470003883" duration="194000" />
+      <workItem from="1648574332554" duration="8251000" />
     </task>
     <servers />
   </component>

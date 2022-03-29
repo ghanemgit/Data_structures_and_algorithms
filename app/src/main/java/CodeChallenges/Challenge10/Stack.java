@@ -1,6 +1,6 @@
 package CodeChallenges.Challenge10;
 
-public class Stack<T> {
+public class Stack {
 
     public Node top;
 
@@ -8,13 +8,14 @@ public class Stack<T> {
         this.top = null;
     }
 
-        //Check the whether of the stack if empty or not
+    //Check the whether of the stack if empty or not
     public boolean isEmpty() {
 
         return this.top == null;
     }
-        //Insert element into the top of stack.
-    public void push(T item) {
+
+    //Insert element into the top of stack.
+    public void push(int item) {
 
         Node newNode = new Node();//create new node and position the pointer(top) at the beginning
         newNode.data = item;//assign the item value to the new node
@@ -29,18 +30,18 @@ public class Stack<T> {
         top = newNode;
     }
 
-        //Return the top element from the stack.
-    public T pop() {
+    //Return the top element from the stack.
+    public int pop() {
 
         if (isEmpty()) {
             System.err.println("The stack is empty");
-            return null;
+            return 0;
         } else {
             //make int variable to save the deleted value in it to allow us return it later
-            T deletedValue;
+            int deletedValue;
             //make new pointer because if we used the top pointer for this process the old value of pointer will keep stored in the memory.
             Node deletePointer = top;
-            deletedValue = (T) top.data;
+            deletedValue =  top.data;
             top = top.next;
             deletePointer = null;
             return deletedValue;
@@ -49,18 +50,18 @@ public class Stack<T> {
 
     }
 
-        //Return the value of top element
-    public T peek() {
+    //Return the value of top element
+    public int peek() {
 
         if (isEmpty()) {
             System.err.println("The stack is empty");
-            return null;
+            return 0;
         } else {
-            return (T) top.data;
+            return  top.data;
         }
     }
 
-        //Print all element of stack.
+    //Print all element of stack.
     public String printAll() {
         String str = "";
         Node newNode = top;
@@ -72,11 +73,39 @@ public class Stack<T> {
                 str += "{ " + newNode.data + " } => ";
                 newNode = newNode.next;
             }
-            str += "null";
+
 
         }
+        str += " null";
         return str;
     }
 
+    public Stack stackReverse(Stack stack) {
 
+        Stack reversedStack = new Stack();
+
+        while (stack.top != null) {
+            reversedStack.push(stack.peek());
+            stack.top = stack.top.next;
+        }
+        return reversedStack;
+    }
+
+    public double getMAx(){
+        if(isEmpty()){
+            System.out.println("Your stack is empty");
+            return 0;
+        }
+        double max=0;
+        Node pointer = new Node();
+        pointer = this.top;
+        while (pointer != null){
+            if(pointer.data > max){
+                max = pointer.data;
+                pointer = pointer.next;
+            }
+
+        }
+        return max;
+    }
 }
