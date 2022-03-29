@@ -13,7 +13,11 @@
 | Challenge11  |     Stack Queue Pseudo     |                                                 [Ch11](app/README_Ch11.md)                                                 |
 | Challenge12  | Stack queue animal shelter |                                                 [Ch12](app/README_Ch12.md)                                                 |
 | Challenge13  |    Stack-queue-brackets    |                                                 [Ch13](app/README_Ch13.md)                                                 |
-|  Challenge15  |            Tree            |                                                 [Ch15](app/README_Ch15.md)                                                 |
+| Challenge15  |            Tree            |                                                 [Ch15](app/README_Ch15.md)                                                 |
+| Challenge15  |   Maximum Value in a Binary Tree  |                                          [Ch16](app/README_Ch16.md)                                                 |
+|              |                        |                                                                                                                            |
+|              |                        |                                                                                                                            |
+|              |                        |                                                                                                                            |
 
 ## Important note
 

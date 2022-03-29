@@ -1,4 +1,4 @@
-package CodeChallenges.Challenge15;
+package CodeChallenges.Challenge15_16;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -33,7 +33,7 @@ public class AppTest {
         assertTrue(binarySearchTree.contains(30));
         assertTrue(binarySearchTree.contains(40));
         assertFalse(binarySearchTree.contains(15));
-
+        assertEquals(40, binarySearchTree.findMax());
 
     }
 
