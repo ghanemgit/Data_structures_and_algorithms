@@ -1,4 +1,4 @@
-package CodeChallenges.Challenge15;
+package CodeChallenges.Challenge15_16;
 
 public class BinaryTree {
 

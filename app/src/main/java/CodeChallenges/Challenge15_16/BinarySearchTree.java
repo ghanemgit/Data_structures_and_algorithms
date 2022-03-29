@@ -1,4 +1,4 @@
-package CodeChallenges.Challenge15;
+package CodeChallenges.Challenge15_16;
 
 public class BinarySearchTree extends BinaryTree{
 
@@ -48,6 +48,27 @@ public class BinarySearchTree extends BinaryTree{
 
         return result != null;
     }
+    /////////////////////////////////////////////////////////Challenge16\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    public Node findMax(Node node){
+
+        if (node == null){
+            return null;
+        }
+        else if (node.right == null){
+            return node;
+        }else {
+            return findMax(node.right);
+        }
+    }
+
+    public int findMax(){
+        Node result = findMax(root);
+        return  result.data;
+    }
+
+
+
 
 
 }

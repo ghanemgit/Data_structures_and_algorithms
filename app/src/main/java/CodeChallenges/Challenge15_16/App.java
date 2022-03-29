@@ -1,4 +1,4 @@
-package CodeChallenges.Challenge15;
+package CodeChallenges.Challenge15_16;
 
 import java.util.Scanner;
 
@@ -24,8 +24,7 @@ public class App {
         else
             System.out.println("Sorry the value you entered is not found");
 
-
-
+        System.out.println("The maximum value in the tree is => "+binarySearchTree.findMax());
     }
 
 
