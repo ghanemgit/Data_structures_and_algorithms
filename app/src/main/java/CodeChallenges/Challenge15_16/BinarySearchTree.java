@@ -8,7 +8,7 @@ public class BinarySearchTree extends BinaryTree{
     public Node add(Node node,int value){
 
         if (node == null){
-            Node newNode = new Node();
+            Node newNode = new Node(value);
             newNode.data = value;
             node = newNode;
         }
@@ -50,7 +50,7 @@ public class BinarySearchTree extends BinaryTree{
     }
     /////////////////////////////////////////////////////////Challenge16\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
-    public Node findMax(Node node){
+    public Node findMaxBST(Node node){
 
         if (node == null){
             return null;
@@ -58,12 +58,12 @@ public class BinarySearchTree extends BinaryTree{
         else if (node.right == null){
             return node;
         }else {
-            return findMax(node.right);
+            return findMaxBST(node.right);
         }
     }
 
-    public int findMax(){
-        Node result = findMax(root);
+    public int findMaxBST(){
+        Node result = findMaxBST(root);
         return  result.data;
     }
 
