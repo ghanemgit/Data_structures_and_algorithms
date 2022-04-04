@@ -1,15 +1,14 @@
-package CodeChallenges.Challenge15_16;
+package CodeChallenges.Challenge15_16_17;
 
-import java.util.ArrayList;
-import java.util.List;
-import CodeChallenges.Challenge10.Queue;
+import java.util.*;
 
 public class BinaryTree {
 
     List<Integer> list = new ArrayList<>();
-    Queue queue = new Queue();
 
     Node root;
+
+
 
     public void preOrder(Node node){//Root - Left - right
         if (node == null) {
@@ -65,6 +64,31 @@ public class BinaryTree {
 /////////////////////////////////////////////////////////Challenge17\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 
+    public List<Integer> breadthFirst(Node node){
+        if(node == null)
+            System.out.println("Empty tree");
+        else
+        {
+            Queue<Node> q= new LinkedList<>();
+            q.add(node);
+            while(q.peek() != null)
+            {
+                Node node1 = q.remove();
+                list.add(node1.data);
+                if(node1.left != null)
+                    q.add(node1.left);
+                if(node1.right != null)
+                    q.add(node1.right);
+            }
+        }
+        return list;
+    }
 
+    public List<Integer> breadthFirst(BinaryTree tree){
+
+        return tree.breadthFirst(tree.root);
+
+
+    }
 
 }
