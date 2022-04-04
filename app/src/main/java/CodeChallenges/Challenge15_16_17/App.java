@@ -1,4 +1,4 @@
-package CodeChallenges.Challenge15_16;
+package CodeChallenges.Challenge15_16_17;
 
 import java.util.Scanner;
 
@@ -41,6 +41,7 @@ public class App {
 
 ///////////////////////////////////////////Challenge17\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
+        System.out.println(tree.breadthFirst(tree));
     }
 
 

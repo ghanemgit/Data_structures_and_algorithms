@@ -1,11 +1,14 @@
-package CodeChallenges.Challenge15_16;
+package CodeChallenges.Challenge15_16_17;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
-
-
+import static org.junit.jupiter.api.Assertions.assertLinesMatch;
 
 
 public class AppTest {
@@ -23,6 +26,9 @@ public class AppTest {
     @Test
     @DisplayName("Binary search tree test")
     void binarySearchTreeTest(){
+
+        List<String> excepted = new ArrayList<>();
+        List<String> actual = new ArrayList<>();
 
 
         binarySearchTree.add(10);
@@ -49,7 +55,11 @@ public class AppTest {
         binaryTree.root.right.right.left = new Node(4);
         assertEquals(11, binaryTree.findMax(binaryTree.root));
 
+        actual.add(binaryTree.breadthFirst(binaryTree).toString());
+        excepted.add("[2, 7, 5, 2, 6, 9, 5, 11, 4]");
 
+
+        assertLinesMatch(excepted,actual);
 
     }
 

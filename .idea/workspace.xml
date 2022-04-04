@@ -6,12 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="efc60306-821d-4024-b98e-7540a074c661" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge15_16/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge15_16/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge15_16/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge15_16/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge15_16/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge15_16/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge15_16/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge15_16/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/CodeChallenges/Challenge15_16/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/CodeChallenges/Challenge15_16/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/README_Ch16.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/README_Ch16.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/README_Ch17.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/README_Ch17.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge15_16/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge15_16_17/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge15_16/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge15_16_17/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge15_16/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge15_16_17/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge15_16/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge15_16_17/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/CodeChallenges/Challenge15_16/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/CodeChallenges/Challenge15_16_17/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +75,7 @@
       <recent name="CodeChallenges.Challenge12" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainCh15">
+  <component name="RunManager" selected="JUnit.AppTest15">
     <configuration name="MainCh10" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -112,7 +113,7 @@
       </method>
     </configuration>
     <configuration name="MainCh15" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="CodeChallenges.Challenge15_16.App" />
+      <option name="MAIN_CLASS_NAME" value="CodeChallenges.Challenge15_16_17.App" />
       <module name="Data_structures_and_algorithms.app.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,7 +166,7 @@
     <configuration name="AppTest15" type="JUnit" factoryName="JUnit">
       <module name="Data_structures_and_algorithms.app.test" />
       <option name="PACKAGE_NAME" value="CodeChallenges.Challenge15" />
-      <option name="MAIN_CLASS_NAME" value="CodeChallenges.Challenge15_16.AppTest" />
+      <option name="MAIN_CLASS_NAME" value="CodeChallenges.Challenge15_16_17.AppTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
@@ -207,7 +208,8 @@
       <workItem from="1648574332554" duration="8730000" />
       <workItem from="1648587343270" duration="4078000" />
       <workItem from="1648755658755" duration="6709000" />
-      <workItem from="1648926508593" duration="6753000" />
+      <workItem from="1648926508593" duration="7139000" />
+      <workItem from="1649081503931" duration="4060000" />
     </task>
     <servers />
   </component>

@@ -11,6 +11,6 @@
 
 
 ## Solution
-### Go [here](src/main/java/CodeChallenges/Challenge15_16) adn you can see my code and test it.
+### Go [here](src/main/java/CodeChallenges/Challenge15_16_17) adn you can see my code and test it.
 ### About gradle test this my screenshot to see the result because I have a problem in previous tests.
 ![findMaxSS.jpg](../Assert/findMaxSS.jpg)
