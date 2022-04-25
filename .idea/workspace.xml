@@ -49,28 +49,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assert" />
-    <property name="nodejs_package_manager_path" value="npm" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Lenovo/Desktop/Advanced Java/Code Challanges/Data_structures_and_algorithms/Assert"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lenovo\Desktop\Advanced Java\Code Challanges\Data_structures_and_algorithms\Assert" />
       <recent name="C:\Users\Lenovo\Desktop\Advanced Java\Code Challanges\Data_structures_and_algorithms\app" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="CodeChallenges.Challenge19" />
       <recent name="CodeChallenges.Challenge18" />
       <recent name="CodeChallenges.Challenge15" />
       <recent name="CodeChallenges.Challenge13" />
       <recent name="CodeChallenges.Challenge12" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest18">
+  <component name="RunManager" selected="Application.MainCh26">
     <configuration name="MainCh10" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -116,6 +117,20 @@
     </configuration>
     <configuration name="MainCh18" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="CodeChallenges.Challenge18.App" />
+      <module name="Data_structures_and_algorithms.app.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainCh19" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="CodeChallenges.Challenge19.App" />
+      <module name="Data_structures_and_algorithms.app.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainCh26" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="CodeChallenges.Challenge26.App" />
       <module name="Data_structures_and_algorithms.app.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -187,6 +202,8 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.MainCh19" />
+      <item itemvalue="Application.MainCh26" />
       <item itemvalue="Application.MainCh18" />
       <item itemvalue="Application.MainCh13" />
       <item itemvalue="Application.MainCh12" />
@@ -225,7 +242,9 @@
       <workItem from="1648755658755" duration="6709000" />
       <workItem from="1648926508593" duration="7139000" />
       <workItem from="1649081503931" duration="4159000" />
-      <workItem from="1649098124392" duration="8069000" />
+      <workItem from="1649098124392" duration="8190000" />
+      <workItem from="1649366455903" duration="2662000" />
+      <workItem from="1650923170810" duration="3813000" />
     </task>
     <servers />
   </component>
@@ -242,5 +261,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge26/App.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
