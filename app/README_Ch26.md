@@ -8,6 +8,10 @@
 ## Whiteboard Process
 ![](../Assert/insertionSort.png)
 
+
+## Visual Process
+![](../Assert/Challenge26(2).png)
+
 ## Approach & Efficiency
 #### The approach I go is increase my skill to step over the algorithm step by step and recorde the result and make table contain the variables and its values at iterating moment
 
