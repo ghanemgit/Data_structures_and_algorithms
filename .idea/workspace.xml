@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="efc60306-821d-4024-b98e-7540a074c661" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/README_Ch26.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/README_Ch26.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +63,9 @@
       <recent name="C:\Users\Lenovo\Desktop\Advanced Java\Code Challanges\Data_structures_and_algorithms\Assert" />
       <recent name="C:\Users\Lenovo\Desktop\Advanced Java\Code Challanges\Data_structures_and_algorithms\app" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Desktop\Advanced Java\Code Challanges\Data_structures_and_algorithms\app" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="CodeChallenges.Challenge19" />
       <recent name="CodeChallenges.Challenge18" />
@@ -71,7 +74,7 @@
       <recent name="CodeChallenges.Challenge12" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainCh26">
+  <component name="RunManager" selected="Application.MainCh27">
     <configuration name="MainCh10" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -131,6 +134,13 @@
     </configuration>
     <configuration name="MainCh26" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="CodeChallenges.Challenge26.App" />
+      <module name="Data_structures_and_algorithms.app.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainCh27" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="CodeChallenges.Challenge27.App" />
       <module name="Data_structures_and_algorithms.app.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -204,6 +214,7 @@
     <list>
       <item itemvalue="Application.MainCh19" />
       <item itemvalue="Application.MainCh26" />
+      <item itemvalue="Application.MainCh27" />
       <item itemvalue="Application.MainCh18" />
       <item itemvalue="Application.MainCh13" />
       <item itemvalue="Application.MainCh12" />
@@ -245,7 +256,9 @@
       <workItem from="1649098124392" duration="8190000" />
       <workItem from="1649366455903" duration="2662000" />
       <workItem from="1650923170810" duration="4013000" />
-      <workItem from="1650972124174" duration="1494000" />
+      <workItem from="1650972124174" duration="1876000" />
+      <workItem from="1650981524983" duration="3541000" />
+      <workItem from="1651080730436" duration="3016000" />
     </task>
     <servers />
   </component>
@@ -262,16 +275,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge26/App.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

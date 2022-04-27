@@ -17,7 +17,8 @@
 | Challenge16  | Maximum Value in a Binary Tree |                                                 [Ch16](app/README_Ch16.md)                                                 |
 | Challenge17  |    Breadth-first Traversal     |                                                 [Ch17](app/README_Ch17.md)                                                 |
 | Challenge18  |         Tree Fizz Buzz         |                                                 [Ch18](app/README_Ch18.md)                                                 |
-| Challenge26  |         Insertion sort         |                                                [Ch26](app/README_Ch26.md)                                                 |
+| Challenge26  |         Insertion sort         |                                                 [Ch26](app/README_Ch26.md)                                                 |
+| Challenge27  |           Merge sort           |                                                 [Ch27](app/README_Ch27.md)                                                 |
 
 ## Important note
 
