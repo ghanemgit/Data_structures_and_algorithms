@@ -12,16 +12,31 @@ public class App {
         int[] arr3 = {5, 12, 7, 5, 5, 7};
         int[] arr4 = {2, 3, 5, 7, 13, 11};
 
-        System.out.println(Arrays.toString(insertionSort(arr)));
-        System.out.println(Arrays.toString(insertionSort(arr2)));
-        System.out.println(Arrays.toString(insertionSort(arr3)));
-        System.out.println(Arrays.toString(insertionSort(arr4)));
+
+
+
+        System.out.println("Before Sort -> "+Arrays.toString(arr));
+        insertionSort(arr);
+        System.out.println("After Sort -> "+Arrays.toString(arr));
+        System.out.println("************************************");
+        System.out.println("Before Sort -> "+Arrays.toString(arr2));
+        insertionSort(arr2);
+        System.out.println("After Sort -> "+Arrays.toString(arr2));
+        System.out.println("************************************");
+        System.out.println("Before Sort -> "+Arrays.toString(arr3));
+        insertionSort(arr3);
+        System.out.println("After Sort -> "+Arrays.toString(arr3));
+        System.out.println("************************************");
+        System.out.println("Before Sort -> "+Arrays.toString(arr4));
+        insertionSort(arr4);
+        System.out.println("After Sort -> "+Arrays.toString(arr4));
+
 
 
 
     }
 
-    public static int[] insertionSort(int[] arr) {
+    public static void insertionSort(int[] arr) {
 
 
         for (int i = 1; i < arr.length; ++i) {
@@ -35,7 +50,6 @@ public class App {
             }
             arr[j + 1] = temp;
         }
-        return arr;
     }
 }
 
