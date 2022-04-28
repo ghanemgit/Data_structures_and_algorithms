@@ -19,6 +19,9 @@
 | Challenge18  |         Tree Fizz Buzz         |                                                 [Ch18](app/README_Ch18.md)                                                 |
 | Challenge26  |         Insertion sort         |                                                 [Ch26](app/README_Ch26.md)                                                 |
 | Challenge27  |           Merge sort           |                                                 [Ch27](app/README_Ch27.md)                                                 |
+| Challenge28  |           Quick sort           |                                                 [Ch28](app/README_Ch28.md)                                                 |
+
+
 
 ## Important note
 

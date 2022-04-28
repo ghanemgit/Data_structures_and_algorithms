@@ -34,10 +34,10 @@ class AppTest {
         List<String> expected = new ArrayList<>();
         List<String> actual = new ArrayList<>();
 
-        expected.add("Your stack is => { 4 } => { 3 } => { 2 } => { 1 } => null");
+        expected.add("Your stack is => { 4 } => { 3 } => { 2 } => { 1 } =>  null");
         expected.add("The value was deleted is => 4");
         expected.add("The top value now => 3");
-        expected.add("Your stack is => { 3 } => { 2 } => { 1 } => null");
+        expected.add("Your stack is => { 3 } => { 2 } => { 1 } =>  null");
 
 
         stack.push(1);

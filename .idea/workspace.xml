@@ -7,6 +7,8 @@
     <list default="true" id="efc60306-821d-4024-b98e-7540a074c661" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge26/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge26/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/CodeChallenges/Challenge10/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/CodeChallenges/Challenge10/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +76,7 @@
       <recent name="CodeChallenges.Challenge12" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainCh27">
+  <component name="RunManager" selected="JUnit.AppTest26">
     <configuration name="MainCh10" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -146,6 +148,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainCh28" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="CodeChallenges.Challenge28.App" />
+      <module name="Data_structures_and_algorithms.app.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppTest10" type="JUnit" factoryName="JUnit">
       <module name="Data_structures_and_algorithms.app.test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -211,7 +220,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest26" type="JUnit" factoryName="JUnit">
+      <module name="Data_structures_and_algorithms.app.test" />
+      <option name="PACKAGE_NAME" value="CodeChallenges.Challenge26" />
+      <option name="MAIN_CLASS_NAME" value="CodeChallenges.Challenge26.AppTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest27" type="JUnit" factoryName="JUnit">
+      <module name="Data_structures_and_algorithms.app.test" />
+      <option name="PACKAGE_NAME" value="CodeChallenges.Challenge26" />
+      <option name="MAIN_CLASS_NAME" value="CodeChallenges.Challenge26.AppTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest28" type="JUnit" factoryName="JUnit">
+      <module name="Data_structures_and_algorithms.app.test" />
+      <option name="PACKAGE_NAME" value="CodeChallenges.Challenge28" />
+      <option name="MAIN_CLASS_NAME" value="CodeChallenges.Challenge28.AppTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.MainCh28" />
       <item itemvalue="Application.MainCh19" />
       <item itemvalue="Application.MainCh26" />
       <item itemvalue="Application.MainCh27" />
@@ -221,6 +261,9 @@
       <item itemvalue="Application.MainCh11" />
       <item itemvalue="Application.MainCh10" />
       <item itemvalue="Application.MainCh15" />
+      <item itemvalue="JUnit.AppTest28" />
+      <item itemvalue="JUnit.AppTest26" />
+      <item itemvalue="JUnit.AppTest27" />
       <item itemvalue="JUnit.AppTest18" />
       <item itemvalue="JUnit.AppTest15" />
       <item itemvalue="JUnit.AppTest13" />
@@ -258,7 +301,9 @@
       <workItem from="1650923170810" duration="4013000" />
       <workItem from="1650972124174" duration="1876000" />
       <workItem from="1650981524983" duration="3541000" />
-      <workItem from="1651080730436" duration="3016000" />
+      <workItem from="1651080730436" duration="3673000" />
+      <workItem from="1651138475743" duration="7548000" />
+      <workItem from="1651155139720" duration="1294000" />
     </task>
     <servers />
   </component>
