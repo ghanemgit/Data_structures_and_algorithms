@@ -18,5 +18,5 @@ Binary Tree is a special datastructures used for data storage purposes. A binary
 - Contains => To search about specific value inside the tree.
 
 ## My test process
-#### I think there is problem in last gradle test, so this is my test for this challenge
-![Mytestprocess](../Assert/MyTestProcess.jpg)
+#### I think there is problem in last gradle test, so this is my test for this challenge.
+![Mytestprocess](../../Assert/MyTestProcess.jpg)

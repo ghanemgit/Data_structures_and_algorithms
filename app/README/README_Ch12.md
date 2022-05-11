@@ -3,10 +3,10 @@
 
 
 ## Whiteboard Process
-![stack-queue-animal-shelter](../Assert/stack-queue-animal-shelter.png)
+![stack-queue-animal-shelter](../../Assert/stack-queue-animal-shelter.png)
 
 ## Approach & Efficiency
 #### Creat, manage and control multiple classes and increase my knowledge in queue and how to deal with object, The big O I mention all this information in my whiteboard
 ## Solution
 ### - First go to main root and run gradle test you will see all my test is passed.
-### - If you want to see and test my code go [here](src/main/java/CodeChallenges/Challenge12/App.java) and run my code in intellij.
+### - If you want to see and test my code go [here](../src/main/java/CodeChallenges/Challenge12/App.java) and run my code in intellij.
