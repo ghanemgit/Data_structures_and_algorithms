@@ -32,7 +32,7 @@
 
 # Gradle test
 ### go to this directory and run gradle test
-### [app](../app)
+### [app](..)
 
 
 

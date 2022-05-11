@@ -6,13 +6,13 @@
 
 
 ## Whiteboard Process
-![WB](../Assert/Challenge27(1).png)
+![WB](../../Assert/Challenge27(1).png)
 
 ### Visual steps
-![](../Assert/Challenge27(2).png)
+![](../../Assert/Challenge27(2).png)
 
 ## Approach & Efficiency
 #### The approach I go is increase my skill to step over the algorithm step by step and recorde the result and make table contain the variables and its values at iterating moment.
 
 ## Solution
-### Go [here](src/main/java/CodeChallenges/Challenge27/App.java) and check my code and tun it in IDE,
+### Go [here](../src/main/java/CodeChallenges/Challenge27/App.java) and check my code and tun it in IDE.

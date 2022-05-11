@@ -6,14 +6,14 @@
 #### Once I'm done with your article, code a working, tested implementation of Insertion Sort based on the pseudocode provided.
 
 ## Whiteboard Process
-![](../Assert/insertionSort.png)
+![](../../Assert/insertionSort.png)
 
 
 ## Visual Process
-![](../Assert/Challenge26(2).png)
+![](../../Assert/Challenge26(2).png)
 
 ## Approach & Efficiency
 #### The approach I go is increase my skill to step over the algorithm step by step and recorde the result and make table contain the variables and its values at iterating moment
 
 ## Solution
-### Go [here](src/main/java/CodeChallenges/Challenge26/App.java) and check my code and tun it in IDE,
+### Go [here](../src/main/java/CodeChallenges/Challenge26/App.java) and check my code and tun it in IDE.

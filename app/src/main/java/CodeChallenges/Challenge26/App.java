@@ -17,16 +17,16 @@ public class App {
 
         System.out.println("Before Sort -> "+Arrays.toString(arr));
         insertionSort(arr);
-        System.out.println("After Sort -> "+Arrays.toString(arr));
-        System.out.println("************************************");
+        System.out.println("After Sort -> "+Arrays.toString(arr)+"\n************************************");
+
         System.out.println("Before Sort -> "+Arrays.toString(arr2));
         insertionSort(arr2);
-        System.out.println("After Sort -> "+Arrays.toString(arr2));
-        System.out.println("************************************");
+        System.out.println("After Sort -> "+Arrays.toString(arr2)+"\n************************************");
+
         System.out.println("Before Sort -> "+Arrays.toString(arr3));
         insertionSort(arr3);
-        System.out.println("After Sort -> "+Arrays.toString(arr3));
-        System.out.println("************************************");
+        System.out.println("After Sort -> "+Arrays.toString(arr3)+"\n************************************");
+
         System.out.println("Before Sort -> "+Arrays.toString(arr4));
         insertionSort(arr4);
         System.out.println("After Sort -> "+Arrays.toString(arr4));
@@ -38,10 +38,11 @@ public class App {
 
     public static void insertionSort(int[] arr) {
 
+        int j,temp;
 
         for (int i = 1; i < arr.length; ++i) {
-            int j = i - 1;
-            int temp = arr[i];
+             j = i - 1;
+             temp = arr[i];
 
 
             while (j >= 0 && arr[j] > temp) {

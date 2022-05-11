@@ -14,16 +14,16 @@ public class App {
 
         System.out.println("Before Sort -> "+Arrays.toString(arr));
         mergeSort(arr);
-        System.out.println("After Sort -> "+Arrays.toString(arr));
-        System.out.println("************************************");
+        System.out.println("After Sort -> "+Arrays.toString(arr)+"\n************************************");
+
         System.out.println("Before Sort -> "+Arrays.toString(arr2));
         mergeSort(arr2);
-        System.out.println("After Sort -> "+Arrays.toString(arr2));
-        System.out.println("************************************");
+        System.out.println("After Sort -> "+Arrays.toString(arr2)+"\n************************************");
+
         System.out.println("Before Sort -> "+Arrays.toString(arr3));
         mergeSort(arr3);
-        System.out.println("After Sort -> "+Arrays.toString(arr3));
-        System.out.println("************************************");
+        System.out.println("After Sort -> "+Arrays.toString(arr3)+"\n************************************");
+
         System.out.println("Before Sort -> "+Arrays.toString(arr4));
         mergeSort(arr4);
         System.out.println("After Sort -> "+Arrays.toString(arr4));

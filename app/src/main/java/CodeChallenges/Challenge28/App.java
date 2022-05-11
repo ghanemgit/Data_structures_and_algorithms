@@ -13,16 +13,16 @@ public class App {
 
         System.out.println("Before Sort -> "+ Arrays.toString(arr));
         quickSort(arr,0,arr.length-1);
-        System.out.println("After Sort -> "+Arrays.toString(arr));
-        System.out.println("************************************");
+        System.out.println("After Sort -> "+Arrays.toString(arr)+"\n************************************");
+
         System.out.println("Before Sort -> "+Arrays.toString(arr2));
         quickSort(arr2,0,arr.length-1);
-        System.out.println("After Sort -> "+Arrays.toString(arr2));
-        System.out.println("************************************");
+        System.out.println("After Sort -> "+Arrays.toString(arr2)+"\n************************************");
+
         System.out.println("Before Sort -> "+Arrays.toString(arr3));
         quickSort(arr3,0,arr.length-1);
-        System.out.println("After Sort -> "+Arrays.toString(arr3));
-        System.out.println("************************************");
+        System.out.println("After Sort -> "+Arrays.toString(arr3)+"\n************************************");
+
         System.out.println("Before Sort -> "+Arrays.toString(arr4));
         quickSort(arr4,0,arr.length-1);
         System.out.println("After Sort -> "+Arrays.toString(arr4));
