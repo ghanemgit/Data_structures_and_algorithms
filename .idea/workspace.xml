@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="efc60306-821d-4024-b98e-7540a074c661" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assert/Ch31T.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/README/README_Ch31.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/README/README_Ch31.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge30/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge30/HashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge31/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge31/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/CodeChallenges/Challenge31/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/CodeChallenges/Challenge31/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +79,7 @@
       <recent name="CodeChallenges.Challenge12" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainCh31">
+  <component name="RunManager" selected="JUnit.AppTest31">
     <configuration name="MainCh10" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -347,7 +351,7 @@
       <workItem from="1652269673848" duration="1719000" />
       <workItem from="1652288807701" duration="1237000" />
       <workItem from="1652291776167" duration="7669000" />
-      <workItem from="1652609894464" duration="14614000" />
+      <workItem from="1652609894464" duration="20322000" />
     </task>
     <servers />
   </component>
