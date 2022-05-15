@@ -172,6 +172,19 @@ public class HashTable <K,V>{
         }
         return keys;
     }
+
+    public ArrayList values() {
+        ArrayList<V> values = new ArrayList<>();
+        for (HashNode<K, V> head : bucketArray) {
+            while (head != null) {
+                values.add(head.value);
+                head = head.next;
+            }
+
+        }
+        return values;
+    }
+
 }
 
 
