@@ -15,7 +15,7 @@ public class App {
         System.out.println("The size is => " + students.getSize());
         System.out.println("The array contain Mohammad => " + students.contain("Mohammad"));
         System.out.println("The array contain Fares => " + students.contain("Fares"));
-        System.out.println(students.keys().toString());
+        System.out.println(students.keys());
 
 
 
