@@ -6,7 +6,7 @@ public class BinaryTree {
 
     List<Integer> list = new ArrayList<>();
 
-    Node root;
+    public Node root;
 
 
 
@@ -64,7 +64,7 @@ public class BinaryTree {
 /////////////////////////////////////////////////////////Challenge17\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 
-    public List<Integer> breadthFirst(Node node){
+    private List<Integer> breadthFirst(Node node){
         if(node == null)
             System.out.println("Empty tree");
         else
