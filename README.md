@@ -22,7 +22,8 @@
 | Challenge28  |           Quick sort           |                                             [Ch28](app/README/README_Ch28.md)                                              |
 | Challenge30  |           Hash table           |                                             [Ch30](app/README/README_Ch30.md)                                              |
 | Challenge31  |     Hashmap repeated word      |                                             [Ch31](app/README/README_Ch31.md)                                              |
-| Challenge32  |     Hashmap Tree insertion     |                                            [Ch32](app/README/README_Ch32.md)                                              |
+| Challenge32  |     Hashmap Tree insertion     |                                             [Ch32](app/README/README_Ch32.md)                                              |
+| Challenge33  |       Hashmap Left Join        |                                             [Ch33](app/README/README_Ch33.md)                                              |
 
 
 
