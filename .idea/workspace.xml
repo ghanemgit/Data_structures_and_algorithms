@@ -7,6 +7,7 @@
     <list default="true" id="efc60306-821d-4024-b98e-7540a074c661" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge10/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/CodeChallenges/Challenge10/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +79,7 @@
       <recent name="CodeChallenges.Challenge12" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainCh33">
+  <component name="RunManager" selected="JUnit.AppTest35">
     <configuration name="MainCh10" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -180,6 +181,13 @@
     </configuration>
     <configuration name="MainCh33" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="CodeChallenges.Challenge33.App" />
+      <module name="Data_structures_and_algorithms.app.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainCh35" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="CodeChallenges.Challenge35.App" />
       <module name="Data_structures_and_algorithms.app.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -320,6 +328,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest35" type="JUnit" factoryName="JUnit">
+      <module name="Data_structures_and_algorithms.app.test" />
+      <option name="PACKAGE_NAME" value="CodeChallenges.Challenge35" />
+      <option name="MAIN_CLASS_NAME" value="CodeChallenges.Challenge35.AppTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.MainCh33" />
       <item itemvalue="Application.MainCh32" />
@@ -335,6 +353,8 @@
       <item itemvalue="Application.MainCh11" />
       <item itemvalue="Application.MainCh10" />
       <item itemvalue="Application.MainCh15" />
+      <item itemvalue="Application.MainCh35" />
+      <item itemvalue="JUnit.AppTest35" />
       <item itemvalue="JUnit.AppTest33" />
       <item itemvalue="JUnit.AppTest32" />
       <item itemvalue="JUnit.AppTest31" />
@@ -391,7 +411,12 @@
       <workItem from="1652609894464" duration="21016000" />
       <workItem from="1652697029469" duration="13711000" />
       <workItem from="1652719298811" duration="1373000" />
-      <workItem from="1652868192137" duration="8511000" />
+      <workItem from="1652868192137" duration="9179000" />
+      <workItem from="1652951767593" duration="1243000" />
+      <workItem from="1653217958770" duration="3201000" />
+      <workItem from="1653301637645" duration="197000" />
+      <workItem from="1653382594072" duration="2080000" />
+      <workItem from="1653393106930" duration="9148000" />
     </task>
     <servers />
   </component>
