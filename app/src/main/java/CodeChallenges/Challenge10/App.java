@@ -39,7 +39,7 @@ Stack stack = new Stack();
         System.out.println(stack.printAll());
         System.out.println("The value was deleted is => " + stack.pop());
         System.out.println("The top value now => " + stack.peek());
-        System.out.println(stack.printAll());v
+        System.out.println(stack.printAll());
  */
 
 
