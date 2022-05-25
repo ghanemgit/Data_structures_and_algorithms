@@ -1,4 +1,4 @@
-package CodeChallenges.Challenge35;
+package CodeChallenges.Challenge35_36;
 
 import java.util.HashSet;
 import java.util.Objects;
