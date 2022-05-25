@@ -1,4 +1,4 @@
-package CodeChallenges.Challenge35;
+package CodeChallenges.Challenge35_36;
 
 import java.util.*;
 
@@ -56,17 +56,38 @@ public class Graph {
         }
     }
 
-    public Set<String> breadthFirstSearch(Graph graph,String root){
+
+    //Returns a collection of edges connected to the given node
+    public List<Node> getNeighbors(Node node){
+        if(nodeListMap.containsKey(node)){
+            return nodeListMap.get(node);
+        }
+        return null;
+    }
+
+    public List<Node> getNodes(String data){
+        return nodeListMap.get(new Node(data));
+    }
+
+
+    public int getSize(){
+        return this.nodeListMap.size();
+    }
+
+
+    /////////////////////////////Challenge36\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    public Set<String> breadthFirst(Node node){
 
         Set<String> visited = new LinkedHashSet<>();
         Queue<String> queue = new LinkedList<>();
-        queue.add(root);
-        visited.add(root);
+        queue.add(node.data);
+        visited.add(node.data);
 
         while (!queue.isEmpty()){
-            String node = queue.poll();
+            String nodeString = queue.poll();
             for (Node n :
-                    graph.getNodes(node)) {
+                    getNodes(nodeString)) {
                 if (!visited.contains(n.data)){
                     queue.add(n.data);
                     visited.add(n.data);
@@ -74,17 +95,5 @@ public class Graph {
             }
         }
         return visited;
-    }
-
-    public List<Node> getNodes(String data){
-        return nodeListMap.get(new Node(data));
-    }
-
-    public HashSet<Node> getNeighbors(Node node){
-        return node.neighbors;
-    }
-
-    public int getSize(){
-        return this.nodeListMap.size();
     }
 }
