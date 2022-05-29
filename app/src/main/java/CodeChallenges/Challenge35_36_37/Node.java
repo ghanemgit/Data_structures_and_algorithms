@@ -1,4 +1,4 @@
-package CodeChallenges.Challenge35_36;
+package CodeChallenges.Challenge35_36_37;
 
 import java.util.HashSet;
 import java.util.Objects;
@@ -6,11 +6,17 @@ import java.util.Objects;
 public class Node {
 
     String data;
+    public int weight ;
     public HashSet<Node> neighbors;
 
 
     public Node(String data) {
         this.data = data;
+    }
+
+    public Node(String data, int weight) {
+        this.data = data;
+        this.weight = weight;
     }
 
     @Override
