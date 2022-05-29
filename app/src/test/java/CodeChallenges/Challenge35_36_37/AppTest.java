@@ -1,4 +1,4 @@
-package CodeChallenges.Challenge35_36;
+package CodeChallenges.Challenge35_36_37;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -29,6 +29,9 @@ public class AppTest {
         assertEquals(2,graph.getSize());
     }
 
+
+    ////////////////////////////////////////////////////Challenge36\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
     @Test
     @DisplayName("Graph Breadth First test")
     void GraphBreadthFirstTest(){
@@ -53,6 +56,46 @@ public class AppTest {
 
         String excepted = "[Pandora, Arendelle, Metroville, Monstroplolis, Narnia, Naboo]";
         assertEquals(excepted,graph.breadthFirst(node).toString());
+
+    }
+
+
+
+    ////////////////////////////////////////////////////Challenge37\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    @Test
+    @DisplayName("Graph business trip test")
+    void businessTripTest(){
+        Graph graph = new Graph();
+
+
+        Node node = graph.addNode("Pandora");
+        Node node1 = graph.addNode("Arendelle");
+        Node node2 = graph.addNode("Metroville");
+        Node node3 = graph.addNode("Monstroplolis");
+        Node node4 = graph.addNode("Narnia");
+        Node node5 = graph.addNode("Naboo");
+
+
+        graph.addEdgesWithWeight(node,node1,150);
+        graph.addEdgesWithWeight(node1,node2,99);
+        graph.addEdgesWithWeight(node1,node3,42);
+        graph.addEdgesWithWeight(node2,node4,37);
+        graph.addEdgesWithWeight(node2,node5,26);
+        graph.addEdgesWithWeight(node2,node3,105);
+        graph.addEdgesWithWeight(node3,node5,73);
+        graph.addEdgesWithWeight(node4,node5,250);
+
+
+        String[] cityNames1 = {"Arendelle", "Monstroplolis", "Naboo"};
+        String[] cityNames2 = {"Naboo", "Pandora"};
+        String[] cityNames3 = {"Narnia", "Arendelle", "Naboo"};
+
+
+
+        assertEquals(115,graph.businessTrip(graph,cityNames1));
+        assertEquals(0,graph.businessTrip(graph,cityNames2));
+        assertEquals(0,graph.businessTrip(graph,cityNames3));
 
     }
 }
