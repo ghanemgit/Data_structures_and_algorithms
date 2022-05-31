@@ -44,5 +44,5 @@
 - space => O(n) Time => O(n).
 
 
-#### Go to code [here](../../app/src/main/java/CodeChallenges/Challenge35_36_37)
-#### Go to test [here](../../app/src/test/java/CodeChallenges/Challenge35_36_37/AppTest.java)
+#### Go to code [here](../../app/src/main/java/CodeChallenges/Challenge35_36_37_38)
+#### Go to test [here](../../app/src/test/java/CodeChallenges/Challenge35_36_37_38/AppTest.java)

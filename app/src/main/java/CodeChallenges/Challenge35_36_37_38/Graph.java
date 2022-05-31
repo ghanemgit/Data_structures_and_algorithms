@@ -1,4 +1,4 @@
-package CodeChallenges.Challenge35_36_37;
+package CodeChallenges.Challenge35_36_37_38;
 
 import java.util.*;
 
@@ -133,6 +133,27 @@ public class Graph {
 
     public List<Node> getNeighbors(String data) {
         return nodeListMap.get(new Node(data));
+    }
+
+
+    ////////////////////////////////////////////////////Challenge38\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+    public List<String> depthFirstTraversal(Node start) {
+        List<String> visited = new ArrayList<>();
+        Stack<String> stack = new Stack<>();
+        stack.push(start.data);
+
+        while (!stack.isEmpty()) {
+            String node = stack.pop();
+            if (!visited.contains(node)) {
+                visited.add(node);
+                for (Node node1 : getNeighbors(node)) {
+                    stack.push(node1.data);
+                }
+            }
+        }
+        return visited;
     }
 
 }

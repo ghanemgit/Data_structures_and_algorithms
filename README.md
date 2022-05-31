@@ -25,9 +25,9 @@
 | Challenge32  |     Hashmap Tree insertion     |                                             [Ch32](app/README/README_Ch32.md)                                              |
 | Challenge33  |       Hashmap Left Join        |                                             [Ch33](app/README/README_Ch33.md)                                              |
 | Challenge35  |      Graph implementation      |                                             [Ch35](app/README/README_Ch35.md)                                              |
-| Challenge36  |      Graph Breadth-first       |                                             [Ch36](app/README/README_Ch36.md)                                              |
-| Challenge37  |      Graph business trip       |                                             [Ch36](app/README/README_Ch37.md)                                              |
-
+| Challenge36  |      Graph Breadth-first       |                                           [Ch36](app/README/README_Ch36.md)                                              |
+| Challenge37  |      Graph business trip       |                                           [Ch37](app/README/README_Ch37.md)                                              |
+| Challenge38  |    Graph depth first           |                                           [Ch38](app/README/README_Ch38.md)                                              |
 
 
 ## Important note
