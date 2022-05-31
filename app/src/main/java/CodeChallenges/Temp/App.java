@@ -2,13 +2,13 @@ package CodeChallenges.Temp;
 
 import java.util.HashSet;
 import java.util.Hashtable;
+import java.util.Random;
 
 public class App {
 
     public static void main(String[] args) {
 
-        System.out.println(repeatedWord("summer dog This is summer dog, I know dog summer."));
-
+        System.out.println(generateRandomPassword(25));
     }
 
     public static boolean isTheStringUnique(String str){
@@ -38,5 +38,15 @@ public class App {
             }
         }
         return null;
+    }
+
+    public static String generateRandomPassword(int len) {
+        String chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijk"
+                +"lmnopqrstuvwxyz!@#$%&";
+        Random rnd = new Random();
+        StringBuilder sb = new StringBuilder(len);
+        for (int i = 0; i < len; i++)
+            sb.append(chars.charAt(rnd.nextInt(chars.length())));
+        return sb.toString();
     }
 }

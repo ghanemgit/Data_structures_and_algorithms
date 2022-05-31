@@ -1,4 +1,4 @@
-package CodeChallenges.Challenge35_36_37;
+package CodeChallenges.Challenge35_36_37_38;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -97,5 +97,37 @@ public class AppTest {
         assertEquals(0,graph.businessTrip(graph,cityNames2));
         assertEquals(0,graph.businessTrip(graph,cityNames3));
 
+    }
+
+    ////////////////////////////////////////////////////Challenge38\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+//
+
+
+    @Test
+    @DisplayName("Graph depth first test")
+    void depthFirstTraversalTest(){
+        Graph graph = new Graph();
+
+        Node nodeA = graph.addNode("A");
+        Node nodeB = graph.addNode("B");
+        Node nodeC = graph.addNode("C");
+        Node nodeG = graph.addNode("G");
+        Node nodeD = graph.addNode("D");
+        Node nodeE = graph.addNode("E");
+        Node nodeF = graph.addNode("F");
+        Node nodeH = graph.addNode("H");
+
+
+        graph.addEdges(nodeA,nodeB);
+        graph.addEdges(nodeA,nodeD);
+        graph.addEdges(nodeB,nodeD);
+        graph.addEdges(nodeB,nodeC);
+        graph.addEdges(nodeC,nodeG);
+        graph.addEdges(nodeD,nodeF);
+        graph.addEdges(nodeD,nodeH);
+        graph.addEdges(nodeD,nodeE);
+        graph.addEdges(nodeF,nodeH);
+
+        assertEquals("[A, D, E, H, F, B, C, G]",graph.depthFirstTraversal(nodeA).toString());
     }
 }
