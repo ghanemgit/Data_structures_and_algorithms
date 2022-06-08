@@ -27,7 +27,7 @@ public class App {
         graph.addEdges(nodeD,nodeE);
         graph.addEdges(nodeF,nodeH);
 
-        System.out.println(graph.depthFirstTraversal(nodeA));
+        System.out.println("Is the two node connected -> "+ CodeChallenges.Temp.App.isNodesConnected(graph,nodeA,nodeH));
 
     }
 }

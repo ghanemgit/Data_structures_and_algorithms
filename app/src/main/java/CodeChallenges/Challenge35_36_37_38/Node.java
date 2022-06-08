@@ -5,7 +5,7 @@ import java.util.Objects;
 
 public class Node {
 
-    String data;
+    public String data;
     public int weight ;
     public HashSet<Node> neighbors;
 
